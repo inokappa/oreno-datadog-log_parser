@@ -1,0 +1,17 @@
+Nov 17 07:00:00 foo-host kernel: [1883225.832250] docker0: port 3(vethda0ae33) entered forwarding state
+Nov 17 06:50:06 foo-host dd.collector[7959]: WARNING (__init__.py:649): Using events for service checks is deprecated in favor of monitors and will be removed in future versions of the Datadog Agent.
+Nov 17 06:50:06 foo-host dd.collector[7959]: INFO (http_check.py:91): http://127.0.0.1:18080/ is DOWN, error: ('Connection aborted.', error(111, 'Connection refused')). Connection failed after 1 ms
+Nov 17 06:50:06 foo-host dd.collector[7959]: INFO (agent.py:204): Sleeping for 15 seconds
+Nov 17 06:50:14 foo-host dd.dogstatsd[7957]: INFO (hogehoge.py:155): Flush #2241: flushed 1 m
+Nov 17 13:33:43 foo-host dd.collector[9840]: DEBUG (hogehoge.py:53): Popen(['mpstat', '1', '3'], close_fds = True, shell = False, stdout = <open file '<fdopen>', mode 'w+b' at 0x7f035b219ed0>, stderr = <open file '<fdopen>', mode 'w+b' at 0x7f035b219f60>, stdin = None) called
+Nov 12 09:18:34 localhost init: tty (/dev/tty2) main process (277) killed by TERM signal
+Nov 12 09:18:34 localhost init: tty (/dev/tty3) main process (279) killed by TERM signal
+Nov 12 09:18:34 localhost init: tty (/dev/tty4) main process (281) killed by TERM signal
+Nov 12 09:18:34 localhost init: plymouth-shutdown main process (299) terminated with status 1
+Nov 12 09:18:34 localhost init: splash-manager main process (295) terminated with status 1
+Nov 12 09:18:34 localhost kernel: Kernel logging (proc) stopped.
+Nov 12 09:18:34 localhost rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="229" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Nov 18 08:30:20 foo-host dd.collector[18723]: DEBUG (hogehoge.py:53): Popen(['iostat', '-d', '1', '2', '-x', '-k'], close_fds = True, shell = False, stdout = <open file '<fdopen>', mode 'w+b' at 0x7f3e2428dd20>, stderr = <open file '<fdopen>', mode 'w+b' at 0x7f3e2428d6f0>, stdin = None) called
+Nov 18 08:30:21 foo-host dd.collector[18723]: DEBUG (hogehoge.py:53): Popen(['ps', 'auxww'], close_fds = True, shell = False, stdout = <open file '<fdopen>', mode 'w+b' at 0x7f3e2428d6f0>, stderr = <open file '<fdopen>', mode 'w+b' at 0x7f3e2428dd20>, stdin = None) called
+Nov 18 08:30:21 foo-host dd.collector[18723]: DEBUG (hogehoge.py:53): Popen(['/bin/hostname', '-f'], close_fds = True, shell = False, stdout = <open file '<fdopen>', mode 'w+b' at 0x7f3e24220030>, stderr = <open file '<fdopen>', mode 'w+b' at 0x7f3e242200c0>, stdin = None) called
+Nov 18 08:30:21 foo-host dd.collector[18723]: DEBUG (hogehoge.py:53): Popen(['mpstat', '1', '3'], close_fds = True, shell = False, stdout = <open file '<fdopen>', mode 'w+b' at 0x7f3e2428dd20>, stderr = <open file '<fdopen>', mode 'w+b' at 0x7f3e2428d6f0>, stdin = None) called
